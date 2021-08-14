@@ -1,0 +1,148 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.fundoindex {
+    background-image: url(fundo1.jpg);
+    background-size:cover    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: #212529;
+    font-size: 40px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: #0353a4;
+    font-weight: bolder;
+        
+}
+
+.personagens {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.opcoes {
+    list-style: none;
+    border: solid 5px #d62828;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 20px;
+    background-color: #d62828;
+}
+
+/*gamer over stile abaixo */
+.fundogameover {
+    background-color: black;
+}
+.texto {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: red;
+}
+
+.buttomover {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 28px;
+    background-color: red;
+    border: solid red 5px;
+    border-radius: 50px;
+    text-decoration: none;  
+
+}
+
+/* Capitão abaixo*/
+.fundocap {
+    background-image: url(fundocap.jpg);
+    background-size:cover 
+}
+
+.caphistory {
+    display: flex;
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+.opcoescap {
+    font-size: 28px;
+    color: white;
+}
+
+.buttomcap {
+    color: #e01e37;
+    font-size: 28px;
+    background-color: rgb(0, 81, 255);
+    border: solid rgb(0, 81, 255) 5px;
+    border-radius: 5px;
+    text-decoration: none;       
+}
+
+/* Homem de ferro abaixo*/
+
+.fundoiron {
+    background-image: url(fundoiron.png);
+    background-size: cover;
+}
+
+.ironhistory {
+    color: rgb(255, 238, 2);
+    font-size: 32px;
+}
+
+.opcoesiron {
+    font-size: 28px;
+    color: rgb(255, 238, 2);
+}
+
+.ironbuttom {
+    color: #e01e37;
+    font-size: 28px;
+    border: solid rgb(255, 238, 2) 5px ;
+    border-radius: 5px;
+    background-color: rgb(255, 238, 2) ;
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px)  {
+.fundoindex {
+        background-image: url(fundo1mobile.jpg);
+        background-size:cover;
+    }
+
+.titulo {
+    color: #ffffff;
+        }
+        
+.subtitulo {
+    color: #04ffff;              
+    }
+
+.opcoes {
+    border: solid 5px #c4bdbdaf;
+    background-color: #c4bdbdaf;
+    margin-top: 25%;
+    }
+    }
