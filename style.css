@@ -15,28 +15,24 @@ body {
     font-size: 40px;
 }
 
-.subtitulo {
-    display: flex;
-    justify-content: center;
-    font-size: 32px;
-    color: #0353a4;
-    font-weight: bolder;
-        
-}
-
 .personagens {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 10%;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+    border: solid 5px #00000070;
+    background-color: #00000070;
+    border-radius: 5px;
+    padding: 5px;
+    
 }
 
 .opcoes {
     list-style: none;
-    border: solid 5px #d62828;
-    border-radius: 5px;
-    padding: 2px;
-    font-size: 20px;
-    background-color: #d62828;
+    text-decoration: none;  
+    color: white;
+    font-size: 20px;    
 }
 
 /*gamer over stile abaixo */
@@ -64,28 +60,44 @@ body {
 
 /* Capitão abaixo*/
 .fundocap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(fundocap.jpg);
-    background-size:cover 
+    background-size:cover;  
 }
 
-.caphistory {
-    display: flex;
-    color: whitesmoke;
+.question {
     font-size: 28px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin-top: 10%;
 }
 
 .opcoescap {
-    font-size: 28px;
-    color: white;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
 }
 
 .buttomcap {
-    color: #e01e37;
-    font-size: 28px;
-    background-color: rgb(0, 81, 255);
-    border: solid rgb(0, 81, 255) 5px;
+    color: #000cb8;
+    height: 60px;
+    width: 150px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.397);
+    border: solid rgba(255, 0, 0, 0.397) 5px;
     border-radius: 5px;
-    text-decoration: none;       
+    text-decoration: none;    
+    text-align: center;   
 }
 
 /* Homem de ferro abaixo*/
@@ -114,17 +126,7 @@ body {
     text-decoration: none; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*Versão   Mobile*/
 
 @media (max-width:700px)  {
 .fundoindex {
@@ -135,14 +137,18 @@ body {
 .titulo {
     color: #ffffff;
         }
-        
-.subtitulo {
-    color: #04ffff;              
-    }
 
-.opcoes {
-    border: solid 5px #c4bdbdaf;
-    background-color: #c4bdbdaf;
-    margin-top: 25%;
+.personagens {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50%;
+    border: solid 5px #00000070;
+    background-color: #00000070;
+    border-radius: 5px;
+    padding: 2px;    
+}
+                
+.opcoes {text-decoration: none;
+    color: white;
     }
     }
