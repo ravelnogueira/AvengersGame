@@ -1,6 +1,6 @@
 var escolher ;
 while (true) {
-    escolher =prompt("1 - Apertar o botão de autodestruição // 2 - Pousar no Ártico")
+    escolher =prompt("1 - Apertar o botão de autodestruição // 2 - Tentar pousar no Ártico")
     if (escolher ==1 ) {
         
         location.replace ('gameover1.html')
