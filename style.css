@@ -58,16 +58,6 @@ body {
 
 }
 
-/* Capitão abaixo*/
-.fundocap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(fundocap.jpg);
-    background-size:cover;  
-}
-
 .question {
     font-size: 20px;
     width: 60%;
@@ -80,6 +70,16 @@ body {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.486);
     margin-top: 10%;
+}
+
+/* Capitão abaixo*/
+.fundocap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(fundocap.jpg);
+    background-size:cover;  
 }
 
 .opcoescap {
@@ -103,26 +103,25 @@ body {
 /* Homem de ferro abaixo*/
 
 .fundoiron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(fundoiron.png);
     background-size: cover;
 }
 
-.ironhistory {
-    color: rgb(255, 238, 2);
-    font-size: 32px;
-}
-
 .opcoesiron {
-    font-size: 28px;
+    font-size: 18px;
     color: rgb(255, 238, 2);
 }
 
 .ironbuttom {
-    color: #e01e37;
-    font-size: 28px;
-    border: solid rgb(255, 238, 2) 5px ;
+    color: rgb(255, 238, 2);
+    font-size: 25px;
+    border: solid #e01e37 5px;
     border-radius: 5px;
-    background-color: rgb(255, 238, 2) ;
+    background-color: #e01e37;
     text-decoration: none; 
 }
 
@@ -146,4 +145,4 @@ body {
     background-color: #00000070;
     border-radius: 5px;
     padding: 2px;    
-    }
+}
