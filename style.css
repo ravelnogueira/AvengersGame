@@ -147,7 +147,12 @@ body {
     padding: 2px;    
 }
     
-    .fundoiron {
+.fundocap {
+    background-image: url(fundocapmobile.jpg);
+    background-size: cover;
+}
+    
+ .fundoiron {
     background-image: url(fundoironmobile.jpg);
     background-size:125%;
     background-repeat: no-repeat; 
