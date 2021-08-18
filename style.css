@@ -125,6 +125,32 @@ body {
     text-decoration: none; 
 }
 
+/*THOR */
+
+.fundothor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(fundothor.jpg);
+    background-size: cover;
+}
+
+.opcoesthor {
+    font-size: 18px;
+    color: rgb(158, 198, 250);
+    font-weight: bolder;
+}
+
+.thorbuttom {
+    color: #e01e37;
+    font-size: 25px;
+    border: solid #00b4d8 5px;
+    border-radius: 5px;
+    background-color: #00b4d8;
+    text-decoration: none; 
+}
+
 /*Versão   Mobile*/
 
 @media (max-width:700px)  {
@@ -157,5 +183,11 @@ body {
     background-size:125%;
     background-repeat: no-repeat; 
     background-position: top;
+}
+    
+.fundothor {
+    background-image: url(fundothormobile.jpg);
+    background-size: cover;
+  
 }
     
