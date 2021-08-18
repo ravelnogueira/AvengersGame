@@ -24,8 +24,7 @@ body {
     border: solid 5px #00000070;
     background-color: #00000070;
     border-radius: 5px;
-    padding: 5px;
-    
+    padding: 5px;   
 }
 
 .opcoes {
@@ -36,9 +35,11 @@ body {
 }
 
 /*gamer over stile abaixo */
+
 .fundogameover {
     background-color: black;
 }
+
 .texto {
     display: flex;
     justify-content: center;
@@ -55,7 +56,6 @@ body {
     border: solid red 5px;
     border-radius: 50px;
     text-decoration: none;  
-
 }
 
 .question {
@@ -157,11 +157,11 @@ body {
 .fundoindex {
         background-image: url(fundo1mobile.jpg);
         background-size:cover;
-    }
+}
 
 .titulo {
     color: #ffffff;
-        }
+}
 
 .personagens {
     display: flex;
@@ -171,6 +171,11 @@ body {
     background-color: #00000070;
     border-radius: 5px;
     padding: 2px;    
+}
+    
+.opcoes {
+    text-transform: uppercase;
+    margin-top: 10px;
 }
     
 .fundocap {
@@ -187,7 +192,6 @@ body {
     
 .fundothor {
     background-image: url(fundothormobile.jpg);
-    background-size: cover;
-  
+    background-size: cover;  
 }
     
