@@ -165,6 +165,7 @@ body {
 
 .personagens {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 50%;
     border: solid 5px #00000070;
