@@ -16,5 +16,4 @@ while (true) {
     else {
         alert("Você digitou errado")        
     }
-
 }
