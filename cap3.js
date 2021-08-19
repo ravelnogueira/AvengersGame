@@ -15,4 +15,3 @@ function escolha(){
             else {alert('Escolha incorreta')} 
             }
         }
-
