@@ -1,19 +1,18 @@
-var escolher ;
-while (true) {
-    escolher =prompt("1- Uma armadura armada e voadora // 2- Tanque de guerra")
-
-    if (escolher ==2 ) {
-        
-        location.replace ('gameover1.html')
-        
-        break
-    }       
-
-    else if (escolher ==1 ) {
-         break
-    }
-
-    else {
-        alert("Você digitou errado")        
-    }
-}   
+function escolha(){ 
+    var escolha = ""
+            while (escolha != 1 && escolha != 2) {
+              escolha = prompt("1- Uma armadura armada e voadora \n 2- Tanque de guerra")
+            
+            if (escolha == 1) {
+            
+              window.location.href = "iron3.html"
+            
+            } else if (escolha == 2) {
+            
+              window.location.href = "gameover1.html"
+            }
+  
+            else {alert('Escolha incorreta')} 
+            }
+        }
+ 
