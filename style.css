@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-    margin-top: 15%;
+    margin-top: 30%;
     margin-left: 25%;
     border: solid 5px #00000070;
     background-color: #00000070;
@@ -32,6 +32,12 @@ body {
     text-decoration: none;  
     color: white;
     font-size: 20px;    
+}
+
+.opcoes:hover {
+    color: red;
+    font-size: 21px;
+    transition: 0.5s;
 }
 
 /*gamer over stile abaixo */
