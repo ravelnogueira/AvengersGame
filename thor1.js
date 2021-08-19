@@ -1,20 +1,16 @@
-var escolher ;
-while (true) {
-    escolher =prompt("1 - Enfrentar diretamente o destruidor // 2 - Evacuar a cidade")
-
-    if (escolher ==1 ) {
-        
-        location.replace ('gameover1.html')
-        
-        break
-    }       
-
-    else if (escolher ==2 ) {
-         break
-    }
-
-    else {
-        alert("Você digitou errado")        
-    }
-}   
-
+function escolha(){ 
+  var escolha = ""
+          while (escolha != 1 && escolha != 2) {
+            escolha = prompt("1 - Enfrentar diretamente o destruidor  \n 2 - Evacuar a cidade")
+          
+          if (escolha == 1) {
+          
+            window.location.href = "gameover.html"
+          
+          } else if (escolha == 2) {
+          
+            window.location.href = "thor2.html"
+          }
+          else {alert('Escolha incorreta')} 
+          }
+      }
