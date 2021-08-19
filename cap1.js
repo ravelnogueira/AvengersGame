@@ -1,18 +1,17 @@
-var escolher ;
-while (true) {
-    escolher =prompt("1 - Apertar o botão de autodestruição // 2 - Tentar pousar no Ártico")
-    if (escolher ==1 ) {
-        
-        location.replace ('gameover1.html')
-        
-        break
-    }       
-
-    else if (escolher ==2 ) {
-         break
-    }
-
-    else {
-        alert("Você digitou errado")        
-    }
-}
+function escolha(){ 
+    var escolha = ""
+            while (escolha != 1 && escolha != 2) {
+              escolha = prompt("1 - Apertar o botão de autodestruição \n 2 - Tentar pousar no Ártico")
+            
+            if (escolha == 1) {
+            
+              window.location.href = "gameover1.html"
+            
+            } else if (escolha == 2) {
+            
+              window.location.href = "capitao2.html"
+            }
+  
+            else {alert('Escolha incorreta')} 
+            }
+        }
