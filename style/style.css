@@ -4,7 +4,7 @@ body {
 }
 
 .fundoindex {
-    background-image: url(/media/fundo1.jpg);
+    background-image: url(./media/fundo1.jpg);
     background-size:cover    
 }
 
@@ -84,7 +84,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/media/fundocap.jpg);
+    background-image: url(./media/fundocap.jpg);
     background-size:cover;  
 }
 
@@ -113,7 +113,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/media/fundoiron.jpg);
+    background-image: url(./media/fundoiron.jpg);
     background-size: cover;
 }
 
@@ -138,7 +138,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/media/fundothor.jpg);
+    background-image: url(./media/fundothor.jpg);
     background-size: cover;
 }
 
@@ -161,7 +161,7 @@ body {
 
 @media (max-width:700px)  {
 .fundoindex {
-        background-image: url(/media/fundo1mobile.jpg);
+        background-image: url(./media/fundo1mobile.jpg);
         background-size:cover;
 }
 
@@ -186,19 +186,19 @@ body {
 }
     
 .fundocap {
-    background-image: url(/media/fundocapmobile.jpg);
+    background-image: url(./media/fundocapmobile.jpg);
     background-size: cover;
 }
     
  .fundoiron {
-    background-image: url(/media/fundoironmobile.jpg);
+    background-image: url(./media/fundoironmobile.jpg);
     background-size:125%;
     background-repeat: no-repeat; 
     background-position: top;
 }
     
 .fundothor {
-    background-image: url(/media/fundothormobile.jpg);
+    background-image: url(./media/fundothormobile.jpg);
     background-size: cover;  
 }
 }
