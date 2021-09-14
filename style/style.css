@@ -4,7 +4,7 @@ body {
 }
 
 .fundoindex {
-    background-image: url(/media/fundo1.jpg);
+    background-image: url(../media/fundo1.jpg);
     background-size:cover    
 }
 
