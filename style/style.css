@@ -1,0 +1,204 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.fundoindex {
+    background-image: url(../media/fundo1.jpg);
+    background-size:cover    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: #212529;
+    font-size: 40px;
+}
+
+.personagens {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 30%;
+    margin-left: 25%;
+    border: solid 5px #00000070;
+    background-color: #00000070;
+    border-radius: 5px;
+    padding: 15px;   
+}
+
+.opcoes {
+    list-style: none;
+    text-decoration: none;  
+    color: white;
+    font-size: 20px;    
+}
+
+.opcoes:hover {
+    color: red;
+    font-size: 21px;
+    transition: 0.5s;
+}
+
+/*gamer over stile abaixo */
+
+.fundogameover {
+    background-color: black;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: red;
+}
+
+.buttomover {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 28px;
+    background-color: red;
+    border: solid red 5px;
+    border-radius: 50px;
+    text-decoration: none;  
+}
+
+.question {
+    font-size: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin-top: 10%;
+}
+
+/* Capitão abaixo*/
+.fundocap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../media/fundocap.jpg);
+    background-size:cover;  
+}
+
+.opcoescap {
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+.buttomcap {
+    color: #000cb8;
+    height: 60px;
+    width: 150px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: solid rgba(255, 0, 0, 0.589) 5px;
+    border-radius: 5px;
+    text-decoration: none;    
+    text-align: center;   
+}
+
+/* Homem de ferro abaixo*/
+
+.fundoiron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../media/fundoiron.jpg);
+    background-size: cover;
+}
+
+.opcoesiron {
+    font-size: 18px;
+    color: rgb(255, 238, 2);
+}
+
+.ironbuttom {
+    color: rgb(255, 238, 2);
+    font-size: 25px;
+    border: solid #e01e37 5px;
+    border-radius: 5px;
+    background-color: #e01e37;
+    text-decoration: none; 
+}
+
+/*THOR */
+
+.fundothor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../media/fundothor.jpg);
+    background-size: cover;
+}
+
+.opcoesthor {
+    font-size: 18px;
+    color: rgb(158, 198, 250);
+    font-weight: bolder;
+}
+
+.thorbuttom {
+    color: #e01e37;
+    font-size: 25px;
+    border: solid #00b4d8 5px;
+    border-radius: 5px;
+    background-color: #00b4d8;
+    text-decoration: none; 
+}
+
+/*Versão   Mobile*/
+
+@media (max-width:700px)  {
+.fundoindex {
+        background-image: url(../media/fundo1mobile.jpg);
+        background-size:cover;
+}
+
+.titulo {
+    color: #ffffff;
+}
+
+.personagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50%;
+    border: solid 5px #00000070;
+    background-color: #00000070;
+    border-radius: 5px;
+    padding: 2px;    
+}
+    
+.opcoes {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+    
+.fundocap {
+    background-image: url(../media/fundocapmobile.jpg);
+    background-size: cover;
+}
+    
+ .fundoiron {
+    background-image: url(../media/fundoironmobile.jpg);
+    background-size:125%;
+    background-repeat: no-repeat; 
+    background-position: top;
+}
+    
+.fundothor {
+    background-image: url(../media/fundothormobile.jpg);
+    background-size: cover;  
+}
+}
